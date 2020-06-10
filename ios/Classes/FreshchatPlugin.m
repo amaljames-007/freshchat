@@ -42,6 +42,7 @@ static const NSString* METHOD_SETUP_PUSH_NOTIFICATIONS = @"setupPushNotification
       freshchatConfig.cameraCaptureEnabled = false;
       freshchatConfig.responseExpectationVisible = NO;
       freshchatConfig.teamMemberInfoVisible = NO;
+      freshchatConfig.setDomain("msdk.in.freshchat.com");
       //set NO to hide it if you want to hide the response expectation for the channel
       freshchatConfig.stringsBundle = @"CustomBundle";
 
